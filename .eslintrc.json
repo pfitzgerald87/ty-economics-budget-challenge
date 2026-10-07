@@ -1,0 +1,11 @@
+module.exports = {
+  root: true,
+  env: {
+    NEXT_PUBLIC_SUPABASE_URL: process.env.NEXT_PUBLIC_SUPABASE_URL,
+    NEXT_PUBLIC_SUPABASE_ANON_KEY: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+  },
+  extends: ['next/core-web-vitals'],
+  rules: {
+    'react/no-unescaped-entities': 'off'
+  }
+};
